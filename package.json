@@ -1,0 +1,31 @@
+{
+  "name": "raspberry-transmitter",
+  "version": "1.0.0",
+  "description": "HTTP RESTful API Server for raspberry to request to",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexw24/raspberry-transmitter.git"
+  },
+  "keywords": [
+    "IoT"
+  ],
+  "author": "Alex Witkowski and Luke Shumaker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexw24/raspberry-transmitter/issues"
+  },
+  "homepage": "https://github.com/alexw24/raspberry-transmitter#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "onoff": "^3.2.2",
+    "websocket": "^1.0.28"
+  }
+}
