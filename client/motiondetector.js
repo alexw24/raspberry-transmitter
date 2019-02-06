@@ -1,3 +1,5 @@
+var WebSocketClient 
+
 var Gpio = require('onoff').Gpio,
   buzzer = new Gpio(18, 'out'),
   pir = new Gpio(17, 'in', 'both');
